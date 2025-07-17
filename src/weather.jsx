@@ -22,7 +22,7 @@ function Weather() {
 
       const geoRes = await axios.get(`https://api.api-ninjas.com/v1/geocoding?city=${city}&country=${country}`, {
         headers: {
-          'X-Api-Key': 'S8BYbnyTT/CBk0yf18bCIQ==vCtfEC3q3i5ZbQjW'
+          'X-Api-Key': 'Enter-your-Api-key-here-between-the-quotes'
         }
       });
 
@@ -61,7 +61,7 @@ function Weather() {
   return (
     <div className="p-4 max-w-5xl mx-auto text-white">
 
-      {/* Frosted Search Box */}
+      
       <div className="backdrop-blur-md bg-white/10 border border-white/30 shadow-lg p-6 rounded-xl mb-6">
         <h2 className="text-2xl font-bold mb-4">🌦️ Weather Search</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -95,7 +95,7 @@ function Weather() {
           {error && <p className="text-red-300">{error}</p>}
         </form>
 
-        {/* Frosted Weather Result */}
+        
         {weather && (
           <div className="mt-6 animate-fade-in backdrop-blur-lg bg-white/10 border border-white/30 rounded-xl p-6 shadow-lg">
             <h3 className="text-xl font-semibold mb-3">Current Weather</h3>
@@ -113,7 +113,7 @@ function Weather() {
         )}
       </div>
 
-      {/* Frosted History Box */}
+      
       <div className="backdrop-blur-md bg-white/10 border border-white/30 shadow-lg p-6 rounded-xl">
         <h2 className="text-xl font-bold mb-2">🔁 Search History</h2>
         {history.length === 0 ? (
