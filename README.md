@@ -39,12 +39,13 @@ Clone the repo and run it locally:
 git clone https://github.com/ansh94082/not-just-a-basic-weather-app.git
 cd not-just-a-basic-weather-app
 ```
-## Don't forget to grab your API key at https://api-ninjas.com/
-## and just paste it in /src/weather.jsx at line Number - 25 then
+Don't forget to grab your API key at https://api-ninjas.com/
+and just paste it in /src/weather.jsx at line Number - 25 then
 
 ```bash
 npm install
 npm run dev
 ```
+
 
 ## Now Just go to your localhost:5173 , sitback and enjoy 
