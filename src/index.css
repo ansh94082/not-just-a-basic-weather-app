@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.nav-links li {
+    color: antiquewhite;
+    transition: transform 0.2s ease;
+}
+
+.nav-links li:hover {
+    color: aqua;
+    transform: scale(1.15);
+}
