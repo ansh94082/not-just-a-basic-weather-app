@@ -40,7 +40,8 @@ git clone https://github.com/ansh94082/not-just-a-basic-weather-app.git
 cd not-just-a-basic-weather-app
 ```
 Don't forget to grab your API key at https://api-ninjas.com/
-and just paste it in /src/weather.jsx at line Number - 25 then
+and just paste it in /src/weather.jsx at line number - 25 
+as well as /src/horoscope.jsx at line number - 26
 
 ```bash
 npm install
